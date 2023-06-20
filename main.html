@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <!-- <style>
+        h1{
+            color: aquamarine;
+        }
+        h1:hover{
+            color: bisque;
+        }
+        input:focus{
+            color: blue;
+        }
+        h1::before{
+            content: "HHH ";
+        }
+    </style> -->
 </head>
 <body>
-    <h1>Hello World, This is Shahinur</h1>sdf
+    <h1>Hello World, This is Shahinur</h1>  
+    <div class="container">
+        <div class="row">
+            <div class="col-6" id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laborum soluta labore quibusdam, necessitatibus est nisi sequi vel, obcaecati, quo minus unde voluptates dolore cum nemo repellat perferendis non dolores.</div>
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laborum soluta labore quibusdam, necessitatibus est nisi sequi vel, obcaecati, quo minus unde voluptates dolore cum nemo repellat perferendis non dolores.</div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('first').style.color = 'red';
+    </script>
 </body>
 </html>
